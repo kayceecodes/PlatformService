@@ -40,12 +40,12 @@ if (app.Environment.IsDevelopment())
 }
 
 
-// app.UseHttpsRedirection();
+app.UseHttpsRedirection();
 
 app.UseAuthorization();
 
 app.MapControllers();
 
-PrepDb.PrepPopulation(app, app.Environment.IsDevelopment());
+// PrepDb.PrepPopulation(app, app.Environment.IsDevelopment());
 
 app.Run();

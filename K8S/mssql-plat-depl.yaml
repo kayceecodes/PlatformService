@@ -32,7 +32,7 @@ spec:
             name: mssqldb
       volumes:
       - name: mssqldb
-        persistentVolumeClaim: 
+        persistentVolumeClaim:
           claimName: mssql-claim
 ---
 apiVersion: v1
@@ -55,7 +55,7 @@ metadata:
   name: mssql-loadbalancer
 spec:
   type: LoadBalancer
-  selector: 
+  selector:
     app: mssql
   ports:
   - protocol: TCP

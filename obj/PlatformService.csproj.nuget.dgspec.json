@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/kaycee/PlatformService/PlatformService.csproj": {}
+    "/home/kaycee/repos/platformservice/PlatformService.csproj": {}
   },
   "projects": {
-    "/home/kaycee/PlatformService/PlatformService.csproj": {
+    "/home/kaycee/repos/platformservice/PlatformService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/kaycee/PlatformService/PlatformService.csproj",
+        "projectUniqueName": "/home/kaycee/repos/platformservice/PlatformService.csproj",
         "projectName": "PlatformService",
-        "projectPath": "/home/kaycee/PlatformService/PlatformService.csproj",
+        "projectPath": "/home/kaycee/repos/platformservice/PlatformService.csproj",
         "packagesPath": "/home/kaycee/.nuget/packages/",
-        "outputPath": "/home/kaycee/PlatformService/obj/",
+        "outputPath": "/home/kaycee/repos/platformservice/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/kaycee/.nuget/NuGet/NuGet.Config"
@@ -91,6 +91,11 @@
             }
           },
           "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "linux-x64": {
+          "#import": []
         }
       }
     }
